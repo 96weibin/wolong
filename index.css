@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+}
+ul,li,ol{
+    list-style: none outside none;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.bran{
+    width: 100%;
+    height: 538px;
+    background: url(img/bg.jpg) no-repeat center top;
+    position: relative;
+}
+.top_clear{
+    width: 960px;
+    height: 30px;
+    position: absolute;
+    top:14px;
+    left: 50%;
+    margin-left: -480px;
+    z-index: 10px;
+}
+.search{
+    float: right;
+    width: 165px;
+    height: 23px;
+    overflow: hidden;
+    background: url(img/searchbg.png) no-repeat;
+
+}
+.search dt{
+    float: left;
+
+}
+.search dt input{
+    width: 127px;
+    height: 17px;
+    padding: 3px 5px;
+    line-height: 17px;
+    overflow: hidden;
+    outline: none;
+    background:#9ccfee;
+}
+.search dd input{
+    width: 28px;
+    height: 23px;
+    overflow: hidden;
+    line-height: 23px;
+    background: none;
+    cursor: pointer;
+}
+.top_menu{
+    width: 411px;
+    padding-right: 15px;
+    float: right;
+}
+.clear{
+    zoom:1;
+    list-style: none outside none; 
+}
+.clear:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content:"1";
+    clear:both;
+    height: 0;
+}
+.top_menu li{
+    float: left;
+    padding: 0 4px;
+    color: #c8d3eb;
+}
+.top_menu li a {
+    color: #fff;
+    opacity: 0.9;
+    font-size: 12px;
+}
+.menu_clear{
+   position: absolute;
+   top: 45px;
+   left: 50%;
+   z-index: 10;
+   width: 968px;
+   margin-left: -484px;
+   height: 96px;
+   background: url(img/menubg.png) no-repeat  ;
+}
+.menu_clear .logo{
+    width: 200px;
+    padding-left: 2px;
+    overflow: hidden;
+    float: left;
+}
+.logo a{
+    display: inline-block;
+    margin: 25px 0 0 30px;
+}
+.logo a img{
+    width:"139px";
+    height:"42px";
+    vertical-align: top;
+}
+.menucon{
+    width: 752px;
+    height: 93px;
+    position: relative;
+    float: right;
+}
+.menucon li{
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+    width: 125px;
+    height: 93px;
+    line-height: 93px;
+}
+.menucon li a{
+    display: inline-block;
+    width: 125px;
+    height: 93px;
+    line-height: 93px;
+    color: #505050;
+    font-size: 14px;
+    text-align: center;
+}
+ .menucon a:hover{
+    background: #fff;
+} 
+.box1{
+    width: 476px;
+    height: 200px;
+    background:url(img/box1.jpg) no-repeat;
+    display: none; 
+   
+}
+.one:hover .box1{
+    display: block;
+} 
+.box2{
+    width: 476px;
+    height: 200px;
+    background: url(img/box2.jpg) no-repeat;
+    display: none;
+}
+.two:hover .box2{
+    display: block;
+}
+.box3{
+    width: 555px;
+    height: 200px;
+    background: url(img/box3.jpg) no-repeat;
+    position: relative;
+    left: -342px;
+    display: none;
+}
+.three:hover .box3{
+    display: block;
+}
+.box4{
+    width: 476px;
+    height: 200px;
+    background: url(img/box2.jpg) no-repeat ;
+    position: relative;
+    left: -342px;
+    display: none; 
+}
+.four:hover .box4{
+    display: block;
+}
+.box5{
+    width: 476px;
+    height: 200px;
+    background: url(img/box2.jpg) no-repeat;
+    position: relative;
+    left: -342px;
+    display: none;
+}
+.five:hover .box5{
+    display: block;
+}
+.box6{
+    width: 476px;
+    height: 200px;
+    background: url(img/box2.jpg) no-repeat ;
+    position: relative;
+    left: -342px;
+    display: none;
+}
+.six:hover .box6{
+    display: block;
+}
